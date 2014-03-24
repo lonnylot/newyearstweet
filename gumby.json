@@ -1,0 +1,7 @@
+{
+	"build": {
+		"gumbyPath": "bower_components/gumby",
+		"outPath": "view/js/libs",
+		"modules": ["validation"]
+	}
+}

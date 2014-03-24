@@ -1,0 +1,40 @@
+// Your custom SCSS should be written here...
+header {
+	@include row();
+}
+
+section {
+	position:relative;
+}
+
+.step {
+	height: 150px;
+}
+
+.mask {
+	@include opacity(0.6);
+
+	position:absolute;
+	top:0;
+	left:0;
+	background:gray;
+	z-index:500;
+	width:100%;
+	height:100%;
+}
+
+#submit {
+	text-align: center;
+}
+
+button {
+	margin: 10px auto;
+}
+
+.alert {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}
